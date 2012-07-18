@@ -76,8 +76,12 @@ $retsults = $return[0];
 
 $dbObj = new MySQLWrapper;
 $sql='INSERT INTO `cc_rangefinder` ( `sessionid`, `teamid`, `distance_L`, `distance_R`, `ErrorValue`, `distanceResult`, `image_Left`, `image_Right`, `timestamp`, `yaw01`, `pitch01`, `roll01`, `yaw02`, `pitch02`, `roll02`, `lat_01`, `long_01`, `lat_02`, `long_02`, `degree`, `gps`) VALUES
-('.$sessionid.',"team01", 3, 4, 12, 15, "DE_1335525546_chenaho_0.jpg", "DE_1335525546_chenaho_1.jpg", 1335525546, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, "0")';
-echo $sql;
+('.$sessionid.',"'.$teamid.'",'.$distance_L.','.$distance_R.','.$ErrorValue.','.$distanceResult.'"'.$img1.'","'.$img2.'",'.$timestamp.','.$yaw01.','.$pitch01.','.$roll01.','.$yaw02.','.$pitch02.','.$roll02
+.','.$lat_01.','.$long_01.','.$lat_02.','.$long_02.','.$degree.',"'.$gps.'")';
+
+ 
+echo "SQL String=  ".$sql."\n";
+
 	
 $result = $dbObj->QueryCommand($sql );
 $Count_BlueForce = $dbObj->GetRowCount($result);	
