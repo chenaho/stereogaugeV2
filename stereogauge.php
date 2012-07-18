@@ -77,7 +77,7 @@ $distance_R=0.0;
 $ErrorValue=0.0;
 	
 //$date = "04/30/1973";
-list($distance_L, $distance_R, $ErrorValue) = split('[,]', $retsults);
+list($distance_L, $distance_R, $ErrorValue) = preg_split('[,]', $retsults);
 
 /*write the result into RangeFinder Table*/	
 $distanceResult =$distance_L; 
@@ -96,7 +96,7 @@ $sql='INSERT INTO `cc_rangefinder` ( `sessionid`, `teamid`, `distance_L`, `dista
 $result = $dbObj->QueryCommand($sql );
 //$Count_BlueForce = $dbObj->GetRowCount($result);	
 //echo "count =".$Count_BlueForce."   ";
-echo $Count_BlueForce;
+//echo $Count_BlueForce;
 
 
 
