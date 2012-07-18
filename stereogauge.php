@@ -79,10 +79,10 @@ $ErrorValue=0.0;
 	
 //$date = "04/30/1973";
 
-//echo $retsults.",".strpos($retsults,'estimateEt');
-if(strpos($retsults,'estimateEmat')==0 )
+//echo $retsults.",".strstr($retsults,'estimateEt');
+if(strstr($retsults,'estimateEmat')!=null )
 {
-	DebugLog($retsults);
+	DebugLog("ERROR:".$retsults);
 	echo -1;
 	return;
 }
@@ -107,8 +107,6 @@ $result = $dbObj->QueryCommand($sql );
 //$Count_BlueForce = $dbObj->GetRowCount($result);	
 //echo "count =".$Count_BlueForce."   ";
 //echo $Count_BlueForce;
-
-
 
 	
 echo $retsults;

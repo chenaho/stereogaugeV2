@@ -161,3 +161,48 @@ StereoGauge.exe ../uploads/DE_1342604820_rfimage_0.jpg ../uploads/DE_1342604820_
 -----1342605198-------
 StereoGauge.exe ../uploads/DE_1342605213_rfimage_0.jpg ../uploads/DE_1342605213_rfimage_1.jpg 167.000000 240.000000 167.000000 240.000000 -1.556547 1.463663 -0.118130 -1.410261 1.484543 -0.341882 0
 [matrix_invert] Error[dgetrf]: 6
+-----1342605449-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167.000000 240.000000 167.000000 240.000000 -2.295063 1.551107 -2.239935 1.311301 1.550422 0.270148 0
+4.81263,5.10496,0.268074
+-----1342614696-------
+StereoGauge.exe ../uploads/img_0037.jpg ../uploads/img_0038.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+ERROR:reading image file '../uploads/img_0037.jpg' failed.
+-----1342614865-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+ERROR:4.01901,4.27911,0.184929
+-----1342614930-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+ERROR:4.01901,4.27911,0.184929
+-----1342615084-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+ERROR:4.01901,4.27911,0.184929
+-----1342615122-------
+StereoGauge.exe ../uploads/DE_1342602210_rfimage_0.jpg ../uploads/DE_1342602210_rfimage_1.jpg 167.000000 240.000000 167.000000 240.000000 1.443396 1.267970 0.042187 1.855378 1.495880 0.186144 0
+ERROR:estimateEmat - too little matches
+-----1342615238-------
+StereoGauge.exe ../uploads/DE_1342602210_rfimage_0.jpg ../uploads/DE_1342602210_rfimage_1.jpg 167.000000 240.000000 167.000000 240.000000 1.443396 1.267970 0.042187 1.855378 1.495880 0.186144 0
+ERROR:estimateEmat - too little matches
+-----1342615248-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+-----1342615282-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+-----1342615306-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+-----1342615312-------
+StereoGauge.exe ../uploads/DE_1342602210_rfimage_0.jpg ../uploads/DE_1342602210_rfimage_1.jpg 167.000000 240.000000 167.000000 240.000000 1.443396 1.267970 0.042187 1.855378 1.495880 0.186144 0
+ERROR:estimateEmat - too little matches
+-----1342615323-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+-----1342615546-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+-----1342615857-------
+StereoGauge.exe ../uploads/DE_1342602210_rfimage_0.jpg ../uploads/DE_1342602210_rfimage_1.jpg 167.000000 240.000000 167.000000 240.000000 1.443396 1.267970 0.042187 1.855378 1.495880 0.186144 0
+ERROR:estimateEmat - too little matches
+-----1342615993-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+-----1342616014-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+-----1342616053-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+-----1342616058-------
+StereoGauge.exe ../uploads/DE_1342605458_rfimage_0.jpg ../uploads/DE_1342605458_rfimage_1.jpg 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
