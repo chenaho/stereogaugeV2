@@ -71,11 +71,15 @@ $return="-1";
 $ret = 	exec($strExec,$return);	
 $retsults = $return[0];
 
+
+$distance_L=0.0;
+$distance_R=0.0;
+$ErrorValue=0.0;
+	
+//$date = "04/30/1973";
+list($distance_L, $distance_R, $ErrorValue) = split('[,]', $retsults);
 	
 /*write the result into RangeFinder Table*/	
-$distance_L=33;
-$distance_R=34;
-$ErrorValue=0.05;
 $distanceResult =$distance_L; 
 $timestamp=1334554;
 
