@@ -23,7 +23,7 @@ include_once '../../CommandCenter/Common/MySQL_ST.php';
 // TODO: 
   
 $timestamp=time();
-$timestamp_Format=date("Y-m-d H:i:s",$t);
+$timestamp_Format=date("Y-m-d H:i:s",$timestamp);
 DebugLog("-----".$timestamp."-------");
 
 @$sessionid=$_GET['sessionid']; 
