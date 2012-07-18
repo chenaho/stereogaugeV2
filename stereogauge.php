@@ -47,6 +47,7 @@ DebugLog("-----".$timestamp."-------");
 @$long_01=$_GET['long_01'];
 @$lat_02=$_GET['lat_02'];
 @$long_02=$_GET['long_02'];
+@$distance=$_GET['distance'];
 @$degree=$_GET['degree'];
 @$gps=$_GET['gps'];
 
@@ -85,9 +86,9 @@ $distanceResult =$distance_L;
 
 
 $dbObj = new MySQLWrapper;
-$sql='INSERT INTO `cc_rangefinder` ( `sessionid`, `teamid`, `distance_L`, `distance_R`, `ErrorValue`, `distanceResult`, `image_Left`, `image_Right`, `timestamp`, `yaw01`, `pitch01`, `roll01`, `yaw02`, `pitch02`, `roll02`, `lat_01`, `long_01`, `lat_02`, `long_02`, `degree`, `gps`) VALUES
+$sql='INSERT INTO `cc_rangefinder` ( `sessionid`, `teamid`, `distance_L`, `distance_R`, `ErrorValue`, `distanceResult`, `image_Left`, `image_Right`, `timestamp`, `yaw01`, `pitch01`, `roll01`, `yaw02`, `pitch02`, `roll02`, `lat_01`, `long_01`, `lat_02`, `long_02`,`distance`, `degree`, `gps`) VALUES
 ('.$sessionid.',"'.$teamid.'",'.$distance_L.','.$distance_R.','.$ErrorValue.','.$distanceResult.',"'.$img1.'","'.$img2.'","'.$timestamp.'",'.$yaw01.','.$pitch01.','.$roll01.','.$yaw02.','.$pitch02.','.$roll02
-.','.$lat_01.','.$long_01.','.$lat_02.','.$long_02.','.$degree.',"'.$gps.'")';
+.','.$lat_01.','.$long_01.','.$lat_02.','.$long_02.','.$distance.','.$degree.',"'.$gps.'")';
 
  
 //echo "SQL String=  ".$sql."\n";
