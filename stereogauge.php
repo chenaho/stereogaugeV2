@@ -76,7 +76,7 @@ $retsults = $return[0];
 $distance_L=0;
 $distance_R=0.0;
 $ErrorValue=0.0;
-	
+	 
 //$date = "04/30/1973";
 
 //echo $retsults.",".strstr($retsults,'estimateEt');
