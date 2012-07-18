@@ -79,8 +79,8 @@ $ErrorValue=0.0;
 	
 //$date = "04/30/1973";
 
-
-if(strpos($retsults,'estimateEmat')!=false )
+//echo $retsults.",".strpos($retsults,'estimateEt');
+if(strpos($retsults,'estimateEmat')==0 )
 {
 	DebugLog($retsults);
 	echo -1;
