@@ -57,7 +57,7 @@ DebugLog("-----".$timestamp."-------");
 //return;
 
 //$strExec="StereoGauge.exe ../uploads/".$img1." ../uploads/".$img2." ".$pos1x." ".$pos1y." ".$pos2x." ".$pos2y;
-$strExec="StereoGauge.exe ../uploads/".$img1." ../uploads/".$img2." ".$pos1x." ".$pos1y." ".$pos2x." ".$pos2y." ".$yaw01." ".$pitch01." ".$roll01." ".$yaw02." ".$pitch02." ".$roll02." ".$IsiPhone4;
+$strExec="StereoGauge.exe ../uploads/".$img1.".jpeg"." ../uploads/".$img2.".jpeg"." ".$pos1x." ".$pos1y." ".$pos2x." ".$pos2y." ".$yaw01." ".$pitch01." ".$roll01." ".$yaw02." ".$pitch02." ".$roll02." ".$IsiPhone4;
 DebugLog($strExec);
 
 
