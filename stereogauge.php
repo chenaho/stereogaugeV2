@@ -22,8 +22,8 @@ include_once '../../CommandCenter/Common/MySQL_ST.php';
 // TODO: check if the session vaild  
 // TODO: 
   
-$t=time();
-$timestamp=date("Y-m-d H:i:s",$t);
+$timestamp=time();
+$timestamp_Format=date("Y-m-d H:i:s",$t);
 DebugLog("-----".$timestamp."-------");
 
 @$sessionid=$_GET['sessionid']; 
@@ -81,7 +81,7 @@ list($distance_L, $distance_R, $ErrorValue) = preg_split('[,]', $retsults);
 
 /*write the result into RangeFinder Table*/	
 $distanceResult =$distance_L; 
-$timestamp=1334554;
+//$timestamp=1334554;
 
 
 $dbObj = new MySQLWrapper;
