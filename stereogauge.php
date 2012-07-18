@@ -72,13 +72,13 @@ $ret = 	exec($strExec,$return);
 $retsults = $return[0];
 
 
-$distance_L=0.0;
+$distance_L=0;
 $distance_R=0.0;
 $ErrorValue=0.0;
 	
 //$date = "04/30/1973";
 list($distance_L, $distance_R, $ErrorValue) = split('[,]', $retsults);
-	
+
 /*write the result into RangeFinder Table*/	
 $distanceResult =$distance_L; 
 $timestamp=1334554;
@@ -90,12 +90,13 @@ $sql='INSERT INTO `cc_rangefinder` ( `sessionid`, `teamid`, `distance_L`, `dista
 .','.$lat_01.','.$long_01.','.$lat_02.','.$long_02.','.$degree.',"'.$gps.'")';
 
  
-echo "SQL String=  ".$sql."\n";
+//echo "SQL String=  ".$sql."\n";
 
 	
 $result = $dbObj->QueryCommand($sql );
-$Count_BlueForce = $dbObj->GetRowCount($result);	
-echo "count =".$Count_BlueForce."   ";
+//$Count_BlueForce = $dbObj->GetRowCount($result);	
+//echo "count =".$Count_BlueForce."   ";
+echo $Count_BlueForce;
 
 
 
