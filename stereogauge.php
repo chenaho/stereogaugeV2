@@ -82,7 +82,7 @@ $timestamp=1334554;
 
 $dbObj = new MySQLWrapper;
 $sql='INSERT INTO `cc_rangefinder` ( `sessionid`, `teamid`, `distance_L`, `distance_R`, `ErrorValue`, `distanceResult`, `image_Left`, `image_Right`, `timestamp`, `yaw01`, `pitch01`, `roll01`, `yaw02`, `pitch02`, `roll02`, `lat_01`, `long_01`, `lat_02`, `long_02`, `degree`, `gps`) VALUES
-('.$sessionid.',"'.$teamid.'",'.$distance_L.','.$distance_R.','.$ErrorValue.','.$distanceResult.',"'.$img1.'","'.$img2.'",'.$timestamp.','.$yaw01.','.$pitch01.','.$roll01.','.$yaw02.','.$pitch02.','.$roll02
+('.$sessionid.',"'.$teamid.'",'.$distance_L.','.$distance_R.','.$ErrorValue.','.$distanceResult.',"'.$img1.'","'.$img2.'","'.$timestamp.'",'.$yaw01.','.$pitch01.','.$roll01.','.$yaw02.','.$pitch02.','.$roll02
 .','.$lat_01.','.$long_01.','.$lat_02.','.$long_02.','.$degree.',"'.$gps.'")';
 
  
