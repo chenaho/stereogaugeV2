@@ -75,3 +75,5 @@ StereoGauge.exe ../uploads/img_0037.png ../uploads/img_0038.png 167 240 167 240 
 StereoGauge.exe ../uploads/img_0037.png ../uploads/img_0038.png 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
 -----1342598980-------
 StereoGauge.exe ../uploads/img_0037.png ../uploads/img_0038.png 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
+-----1342599089-------
+StereoGauge.exe ../uploads/img_0037.png ../uploads/img_0038.png 167 240 167 240 -1.713752 1.448144 -0.396208 -1.923150 1.461892 -0.400685 0
