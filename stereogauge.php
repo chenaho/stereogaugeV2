@@ -78,6 +78,7 @@ $distance_R=0.0;
 $ErrorValue=0.0;
 	
 //$date = "04/30/1973";
+DebugLog($retsults);
 list($distance_L, $distance_R, $ErrorValue) = preg_split('[,]', $retsults);
 
 /*write the result into RangeFinder Table*/	
